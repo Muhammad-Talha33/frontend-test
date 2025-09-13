@@ -1,17 +1,17 @@
 const HowItWorks = () => {
   const steps = [
     {
-      icon: "../../public/image4.png",
+      icon: "/image4.png",
       title: "Search Anywhere",
       description: "Enter your location, date, and training type",
     },
     {
-      icon:  "../../public/image3.png",
+      icon:  "/image3.png",
       title: "Compare & Choose",
       description: "View top-rated gyms and fitness trainers on our app",
     },
     {
-      icon:  "../../public/image5.png",
+      icon:  "/image5.png",
       title: "Book Instantly",
       description: "Reserve and pay securely - no commitment required",
     },
