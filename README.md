@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# Frontend Developer Test – Muhammad Talha
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Summary
+This is my submission for the **Frontend Developer Test**.  
+I recreated the provided gym/fitness landing page design using **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.  
+The site is fully responsive, uses reusable components, and follows the structure and styling specified in the design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+🔗 [View Live Project](https://frontend-test-omega-six.vercel.app)
 
-## Expanding the ESLint configuration
+## 💻 GitHub Repository
+🔗 [View Repo](https://github.com/Muhammad-Talha33/frontend-test)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Stack & Tools
+- React + TypeScript  
+- Vite  
+- Tailwind CSS  
+- ESLint (for code consistency)  
+- Mock data for testimonials and other sections
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+frontend-test/
+├── public/ → Static assets
+├── src/
+│ ├── components/ → Reusable UI components
+│ ├── pages/ → Main pages (Home)
+│ ├── assets/ → icons
+│ ├── App.tsx
+│ └── main.tsx
+├── vite.config.ts
+├── package.json
+└── README.md
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🎯 Features Implemented
+- Responsive layouts (Desktop → Mobile)  
+- Dark theme: black background, white text, yellow accent colors  
+- Reusable components: Button, Input, Card, Navbar, Footer, SectionHeading  
+- Hover & transition effects for interactivity  
+- Semantic HTML and accessibility (alt attributes, proper tags)  
+- Mock data for sections (no live backend)
