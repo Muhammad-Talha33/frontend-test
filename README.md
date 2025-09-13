@@ -24,23 +24,6 @@ The site is fully responsive, uses reusable components, and follows the structur
 
 ---
 
-## 📂 Structure
-
-frontend-test/
-├── public/ → Static assets
-├── src/
-│ ├── components/ → Reusable UI components
-│ ├── pages/ → Main pages (Home)
-│ ├── assets/ → icons
-│ ├── App.tsx
-│ └── main.tsx
-├── vite.config.ts
-├── package.json
-└── README.md
-
-
----
-
 ## 🎯 Features Implemented
 - Responsive layouts (Desktop → Mobile)  
 - Dark theme: black background, white text, yellow accent colors  
