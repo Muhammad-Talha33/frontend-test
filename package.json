@@ -3,8 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://muhammad-talha33.github.io/frontend-test/",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
